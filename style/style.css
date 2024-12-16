@@ -534,3 +534,42 @@ button{
     color: #fde510;
     
 }
+
+.head-character{
+    text-align: center;
+    padding: 2vh;
+    width: 30%;
+    height: 50%;
+    border: 2px solid #000;
+    margin-left: 35%;
+    border-radius: 2rem;
+}
+
+.img-zise{
+    width: 5cm;
+    border-radius: 2rem;
+    margin-left: 44%;
+}
+
+.recomment{
+    text-align: center;
+    font-size: 20px;
+}
+
+.download-btn{
+    text-align: center;
+    width:10%;
+    height: 50%;
+    border: 1px solid #000;
+    padding: 12px ;
+    background-color: chartreuse;
+    border-radius: 2rem;
+    margin-left: 44%;
+    padding: 1vh;
+    margin-top: 12px;
+}
+
+.download-btn:hover{
+    background-color: cornflowerblue;
+    color: #fde510;
+}
