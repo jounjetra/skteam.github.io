@@ -535,41 +535,98 @@ button{
     
 }
 
+.room-download{
+    padding: 100vh;
+    background-color: #000;
+}
+
+.box-download{
+    background-color: #ffffff;
+    width: 60vh;
+    margin-left: 16.5cm;
+    height: 22cm;
+    border: 2px solid #000;
+    border-radius: 2rem;
+    
+}
+
 .head-character{
     text-align: center;
-    padding: 2vh;
-    width: 30%;
-    height: 50%;
+    padding: 6px;
+    width: 74%;
+    height: 48px;
     border: 2px solid #000;
-    margin-left: 35%;
+    margin-left: 74px;
     border-radius: 2rem;
+    margin-top: 6vh;
+    padding: 0;
+    padding: 5px;
+    margin-top: ;
+    background-color: #21c54a;
+    
+}
+
+.head-character h1{
+    font-size: 20px;
 }
 
 .img-zise{
     width: 5cm;
     border-radius: 2rem;
-    margin-left: 44%;
+    margin-left: 32%;
+    margin-top: 120px;
 }
 
 .recomment{
     text-align: center;
     font-size: 20px;
+    margin-top: 25px;
 }
 
 .download-btn{
     text-align: center;
-    width:10%;
-    height: 50%;
+    width:26%;
+    height: 6%;
     border: 1px solid #000;
-    padding: 12px ;
     background-color: chartreuse;
     border-radius: 2rem;
-    margin-left: 44%;
-    padding: 1vh;
-    margin-top: 12px;
+    margin-left: 90px;
+    padding: 8px;
+    margin-top: 15px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    
 }
 
-.download-btn:hover{
-    background-color: cornflowerblue;
+.box-download .download-btn .download-file-new{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.box-download .download-btn .download-file-new:hover{
     color: #fde510;
+}
+.download-btn:hover{
+    background-color: rgb(71, 139, 2);
+}
+
+.shop-content .product-box-new{
+    margin-left: 811px;
+}
+
+.shop-container .product-box-new #pic-new{
+    width: 150px;
+}
+
+.shop-container .confirm-txt{
+    font-size: 19px;
+    color: #21c54a;
+    text-align: center;
+    margin-top: 3VH;
+}
+
+.shop-content .product-box-new .buy-box .price{
+    margin-left: 42px;
 }
